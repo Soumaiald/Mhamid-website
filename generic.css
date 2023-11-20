@@ -1,0 +1,48 @@
+div {
+    width: 50%;
+    margin: auto;
+    background-color:  rgb(237, 46, 46);
+    text-align: center;
+    height: 80vh;
+    margin-top: 8vh;
+    border: 2px solid rgb(119, 118, 118);
+    color: aliceblue;
+    overflow:scroll;
+    
+}
+
+h1{
+    margin-top: 5%;
+}
+
+select , input {
+    width: 90%;
+    height: 8%;
+    margin-top: 2%;
+    font-size: 20px;
+    background-color: rgb(169, 31, 31);
+    text-align: left;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+#help-input {
+    height: 26%;
+    text-align:start;
+}
+#submit {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 9%;
+    color: rgb(244, 64, 64);
+    width: 90%;
+    height: 9%;
+    margin-top: 2%;
+    border-radius: 5%;
+    font-size: 20px;
+    text-align: center;
+}
+
+label {
+    color: rgb(229, 156, 31);
+    font-size: 19px;
+}

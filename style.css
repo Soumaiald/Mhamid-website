@@ -1,0 +1,114 @@
+header.masthead {
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background-image: url("./images/sunset.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+  }
+  header.masthead .masthead-subheading {
+    font-size: 1.5rem;
+    font-style: italic;
+    line-height: 1.5rem;
+    margin-bottom: 5rem;
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  header.masthead .masthead-heading {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 3.25rem;
+    margin-bottom: 6rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+
+
+#marrakech {
+    width: 100%;
+    height: 30vh;
+    background-size:100% 100%;
+    border: 1px solid black;
+    border-radius: 20%;
+    animation-name: kech;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes kech {
+0%  {background-image: url("./images/kech-color.png");}
+50%  {background-image: url("./images/kech-arch.webp");}
+100%  {background-image: url("./images/kech-majorelle.webp");}
+}
+
+#mhamid {
+    width: 100%;
+    height: 30vh;
+    background-size:100% 100%;
+    border: 1px solid black;
+    border-radius: 20%;
+    animation-name: mhamid;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mhamid {
+0%  {background-image: url("./images/mhamid-bivouac.jpeg");}
+50%  {background-image: url("./images/chegaga-dune.jpeg");}
+100%  {background-image: url("./images/camels.JPG");}
+}
+
+
+#zazat {
+    width: 100%;
+    height: 30vh;
+    background-size:100% 100%;
+    border: 1px solid black;
+    border-radius: 20%;
+    animation-name: zazat;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes zazat {
+0%  {background-image: url("./images/zazat-color.jpeg");}
+50%  {background-image: url("./images/zazat-rever.jpg");}
+100%  {background-image: url("./images/zazat-qasba.jpeg");}
+}
+
+
+/* Dropdown Button */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  
+
+tr, td {
+    margin-bottom: 5px; 
+    border: 1px solid black;
+}
